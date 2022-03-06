@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 5px;
+    min-height: 50px;
+    width: 50%;
+    max-width: 500px;
+    border: 2px solid #ddd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+.gallery {
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+    column-gap: 20px;
+    row-gap: 20px;
+}
