@@ -6,7 +6,7 @@ input {
     display: block;
     height: 50px;
     border-radius: 7px;
-    width: 50%;
+    width: 95%;
     max-width: 500px;
     border: 2px solid #ddd;
     margin-top: 25px;
@@ -23,8 +23,17 @@ input {
     margin: auto;
     max-width: 860px;
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     column-gap: 20px;
     row-gap: 20px;
 }
+
+a {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: auto;
+}
+
