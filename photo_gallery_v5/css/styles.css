@@ -13,9 +13,6 @@ input {
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-}
-
-::placeholder {
     padding-left: 10px;
 }
 
